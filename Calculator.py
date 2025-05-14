@@ -2,14 +2,12 @@ def add(x, y):
     return x + y
 
 def subtract(x, y):
-    # Error introduced: The calculation is done, but the result is not returned.
-    # return x - y
-    pass # Placeholder to keep the function syntactically valid
+    # Error corrected: 
+    return x - y
 
 def multiply(x, y):
-    # Error introduced: The calculation is done, but the result is not returned.
-    # return x * y
-    pass # Placeholder to keep the function syntactically valid
+    # Error corrected
+    return x * y
 
 def divide(x, y):
     if y == 0:
